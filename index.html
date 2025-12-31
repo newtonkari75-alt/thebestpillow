@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SEO ESSENTIALS & PERFORMANCE -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- Added user-scalable=no to prevent accidental zoom issues on layout, though use with caution for accessibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary SEO -->
+    <title>Derila Ergo – Ergonomic Pillow for Better Sleep | 70% OFF Today</title>
+    <meta name="description" content="Experience deeper, more comfortable sleep with Derila Ergo — an ergonomic pillow designed to support your neck and improve rest. 30-day money-back guarantee. Limited-time 70% OFF.">
+    <meta name="keywords" content="Derila Ergo, Ergonomic Pillow, Memory Foam Pillow, Neck Pain Pillow, Sleep Support, Orthopedic Pillow, Better Sleep, Neck Support">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical & Hreflang -->
+    <link rel="canonical" href="https://derilaergo.shop/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://derilaergo.shop/">
+    <meta property="og:title" content="Derila Ergo – Ergonomic Pillow for Better Sleep">
+    <meta property="og:description" content="Wake up feeling rested. Ergonomic pillow designed to support your neck and spine.">
+    <!-- Updated OG Image path as well -->
+    <meta property="og:image" content="images/hero.webp">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Derila">
+
+    <!-- Preconnect & DNS-Prefetch for Performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://flagcdn.com">
+    
+    <!-- EXISTING SCRIPTS AND STYLES -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased; /* Smoother fonts on iOS */
+        }
+        .hero-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+        }
+        .flag-btn {
+            cursor: pointer;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .flag-btn:active { /* Better feedback on touch */
+            transform: scale(0.95);
+            opacity: 0.8;
+        }
+        .hidden-section {
+            display: none;
+        }
+        /* Tap highlight color removal for cleaner mobile feel */
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col overflow-x-hidden"> <!-- Prevent horizontal scroll -->
+
+    <!-- LANDING PAGE CONTENT -->
+    <div id="landing-page">
+        
+        <!-- Top Bar -->
+        <div class="bg-black text-white text-[10px] md:text-xs font-bold py-2.5 px-2 text-center uppercase tracking-wide w-full leading-tight">
+            <span data-i18n="top_bar">SPECIAL LIMITED TIME OFFER | 70% OFF</span>
+        </div>
+
+        <!-- Sub-header -->
+        <div class="bg-gray-100 text-xs py-3 border-b border-gray-200 w-full">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 text-center">
+                <div class="font-bold flex items-center justify-center gap-1.5 mb-1 md:mb-0">
+                    <img src="https://flagcdn.com/w20/us.png" alt="US Flag" class="h-3.5 w-auto" id="dynamic-region-flag">
+                    <span data-i18n="sub_header_1" class="whitespace-nowrap">ERGONOMIC SLEEP SUPPORT</span>
+                </div>
+                <div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 text-[10px] md:text-xs font-semibold text-gray-700 uppercase leading-none">
+                    <span class="flex items-center"><i class="fas fa-truck text-black mr-1.5"></i> <span data-i18n="sub_header_2">FAST & FREE SHIPPING</span></span>
+                    <span class="flex items-center"><i class="fas fa-shield-alt text-black mr-1.5"></i> <span data-i18n="sub_header_3">30-DAY GUARANTEE</span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="bg-white px-4 py-3.5 sticky top-0 z-50 shadow-md w-full backdrop-blur-sm bg-white/95">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center shrink-0">
+                    <!-- LOGO IMAGE (Header) -->
+                    <!-- Mobile: h-8, Desktop: h-10 for proportionality -->
+                    <img src="images/logo.webp" alt="Derila Ergo Logo" class="h-8 md:h-10 w-auto object-contain">
+                </div>
+                <div class="flex items-center gap-2 md:gap-3 flex-wrap justify-end">
+                    <!-- Flags for language switching - Larger touch targets -->
+                    <img src="https://flagcdn.com/w40/us.png" onclick="setLanguage('en', 'us')" class="flag-btn h-5 w-auto shadow-sm rounded-[2px]" title="United States">
+                    <img src="https://flagcdn.com/w40/ca.png" onclick="setLanguage('en', 'ca')" class="flag-btn h-5 w-auto shadow-sm rounded-[2px]" title="Canada">
+                    <img src="https://flagcdn.com/w40/au.png" onclick="setLanguage('en', 'au')" class="flag-btn h-5 w-auto shadow-sm rounded-[2px]" title="Australia">
+                    <img src="https://flagcdn.com/w40/fi.png" onclick="setLanguage('fi', 'fi')" class="flag-btn h-5 w-auto shadow-sm rounded-[2px]" title="Finland">
+                    <img src="https://flagcdn.com/w40/nz.png" onclick="setLanguage('en', 'nz')" class="flag-btn h-5 w-auto shadow-sm rounded-[2px]" title="New Zealand">
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Image Section -->
+        <!-- MOBILE FIRST: Uses h-[45vh] for mobile proportionality (not too tall, not too short), fixed pixel height for desktop -->
+        <div class="relative w-full h-[45vh] md:h-[550px] bg-gray-200 overflow-hidden group">
+            <!-- HERO IMAGE -->
+            <img src="images/hero.webp" class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" alt="Person sleeping on Derila pillow">
+            
+            <!-- Subtle gradient for polish -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="container mx-auto px-5 py-8 md:py-12 max-w-5xl">
+            <div class="grid md:grid-cols-1 gap-8">
+                <div>
+                    <!-- Ratings -->
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-2 mb-4">
+                        <div class="flex items-center gap-2">
+                            <div class="flex text-yellow-400 text-lg">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="font-bold text-gray-900 text-lg">4.7 / 5</span>
+                        </div>
+                        <span class="hidden sm:inline text-gray-300 mx-1">|</span>
+                        <span class="text-gray-600 text-sm italic leading-tight" data-i18n="ratings">1,400+ Customers Say It Improved Their Sleep Quality</span>
+                    </div>
+
+                    <!-- Main Title -->
+                    <!-- Mobile: 2.25rem (36px), Desktop: 3.75rem (60px) for high impact -->
+                    <h1 class="text-4xl md:text-5xl font-black text-slate-900 leading-[1.1] mb-5 tracking-tight" data-i18n="main_title">
+                        The Pillow That Helps You Sleep Better — Naturally
+                    </h1>
+
+                    <!-- Subtitle -->
+                    <!-- Increased line-height for mobile readability -->
+                    <p class="text-slate-600 font-medium text-lg md:text-xl leading-relaxed mb-8 max-w-3xl" data-i18n="subtitle">
+                        Designed to support your neck and spine while you sleep, Derila Ergo helps reduce discomfort, improve posture, and promote deeper, more restorative rest — without medication or complicated solutions.
+                    </p>
+
+                    <!-- Features Section -->
+                    <div class="mb-8 bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                        <h3 class="text-lg font-bold text-slate-900 mb-5 uppercase tracking-wide border-l-4 border-blue-600 pl-3" data-i18n="why_love">
+                            Why People Choose Derila Ergo
+                        </h3>
+                        <ul class="space-y-4 md:grid md:grid-cols-2 md:space-y-0 md:gap-x-6 md:gap-y-4">
+                            <li class="flex items-start gap-3.5">
+                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
+                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_1">Supports natural neck and spine alignment</span>
+                            </li>
+                            <li class="flex items-start gap-3.5">
+                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
+                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_2">Helps reduce tension and morning stiffness</span>
+                            </li>
+                            <li class="flex items-start gap-3.5">
+                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
+                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_3">Promotes deeper, uninterrupted sleep</span>
+                            </li>
+                            <li class="flex items-start gap-3.5">
+                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
+                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_4">Breathable design prevents overheating</span>
+                            </li>
+                            <li class="flex items-start gap-3.5 md:col-span-2">
+                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
+                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_5">Comfortable for side, back, and combination sleepers</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- CTA SECTION -->
+                    <div class="w-full mb-10">
+                        <!-- Massive touch target for mobile conversion -->
+                        <button onclick="document.getElementById('country-selection').scrollIntoView({ behavior: 'smooth' })" class="w-full bg-[#1e3a8a] active:bg-blue-900 hover:bg-blue-800 text-white font-black text-xl md:text-2xl py-5 md:py-6 rounded-xl shadow-lg hover:shadow-2xl active:transform active:scale-[0.98] transition-all duration-200 uppercase tracking-wide mb-5 flex items-center justify-center gap-3">
+                            <span data-i18n="cta_button">GET 70% OFF TODAY</span>
+                            <i class="fas fa-arrow-right animate-pulse"></i>
+                        </button>
+                        
+                        <div class="flex items-center justify-center gap-3 text-gray-500 text-xs md:text-sm font-semibold">
+                            <i class="fas fa-lock text-gray-400"></i>
+                            <span class="text-center" data-i18n="cta_guarantee">Try it risk-free with our 30-day money-back guarantee.</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Proof Box -->
+                    <div class="border border-blue-50 bg-blue-50/30 rounded-xl p-5 shadow-sm md:max-w-lg mx-auto mb-12">
+                        <div class="flex flex-col items-center justify-center gap-3 pb-4 border-b border-blue-100 mb-3 text-center">
+                            <div class="flex -space-x-3">
+                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=32" alt="">
+                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=11" alt="">
+                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=53" alt="">
+                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=3" alt="">
+                                <div class="w-10 h-10 rounded-full border-2 border-white bg-green-100 flex items-center justify-center text-[10px] font-bold text-green-800 shadow-sm">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <span class="text-sm md:text-base font-bold text-slate-800 leading-snug" data-i18n="social_proof">8,000+ Customers: <br class="sm:hidden"><span class="font-normal italic text-slate-600">“Sleeping better than I have in years.”</span></span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 text-sm font-bold mt-2">
+                            <div class="flex items-center gap-2 text-green-700 bg-green-50 px-3 py-1 rounded-full">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-i18n="stock">In Stock</span>
+                            </div>
+                            <div class="flex items-center gap-2 text-red-600 bg-red-50 px-3 py-1 rounded-full">
+                                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+                                <span data-i18n="limited_deal">Offer Ends Soon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Country Selection Section (SCROLL TARGET) -->
+        <div id="country-selection" class="w-full bg-white border-t border-gray-100 py-12 md:py-20 scroll-mt-10">
+            <div class="container mx-auto px-4 text-center max-w-5xl">
+                <h2 class="text-2xl md:text-4xl font-extrabold text-slate-900 mb-4 tracking-tight leading-tight" data-i18n="select_title">
+                    Select Your Country to Unlock Your Best Offer
+                </h2>
+                <p class="text-slate-500 text-base md:text-lg font-medium leading-relaxed mb-10 max-w-2xl mx-auto" data-i18n="select_subtitle">
+                    Get local pricing, faster delivery, and the best available deal in your region.<br class="hidden md:block">
+                    Select your country below to see your exclusive deal.
+                </p>
+                <!-- NOTE TO USER: Ensure these links redirect to your actual checkout or product page -->
+                <!-- Mobile: Single column (grid-cols-1) is enforced by default in Tailwind unless overridden. Added gap-4 for touch separation. -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+                    
+                    <!-- Canada (CA) -->
+                    <a href="javascript:void(0)" onclick="selectCountry('ca')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
+                        <img src="https://flagcdn.com/w80/ca.png" alt="Canada" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
+                        <div class="text-left flex-1">
+                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Canada</span>
+                            <span class="text-xs font-bold text-red-600 flex items-center gap-1.5 mt-0.5"><i class="fas fa-exclamation-triangle"></i> Low Stock: Only 14 Left</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
+                    </a>
+
+                    <!-- Australia (AU) -->
+                    <a href="javascript:void(0)" onclick="selectCountry('au')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
+                        <img src="https://flagcdn.com/w80/au.png" alt="Australia" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
+                        <div class="text-left flex-1">
+                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Australia</span>
+                            <span class="text-xs font-bold text-orange-500 flex items-center gap-1.5 mt-0.5"><i class="fas fa-fire-alt"></i> Selling Fast</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
+                    </a>
+
+                    <!-- Finland (FI) -->
+                    <a href="javascript:void(0)" onclick="selectCountry('fi')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
+                        <img src="https://flagcdn.com/w80/fi.png" alt="Finland" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
+                        <div class="text-left flex-1">
+                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Finland</span>
+                            <span class="text-xs font-bold text-green-600 flex items-center gap-1.5 mt-0.5"><i class="fas fa-check-circle"></i> Ships Immediately</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
+                    </a>
+
+                    <!-- New Zealand (NZ) -->
+                    <a href="javascript:void(0)" onclick="selectCountry('nz')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
+                        <img src="https://flagcdn.com/w80/nz.png" alt="New Zealand" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
+                        <div class="text-left flex-1">
+                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">New Zealand</span>
+                            <span class="text-xs font-bold text-red-500 flex items-center gap-1.5 mt-0.5"><i class="fas fa-clock"></i> Order Soon</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Section -->
+        <footer class="bg-gray-100 border-t border-gray-200 pt-12 pb-10">
+            <div class="container mx-auto px-6 max-w-5xl">
+                
+                <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-10 mb-10 text-center md:text-left">
+                    <!-- Brand Info -->
+                    <div class="flex flex-col items-center md:items-start gap-4 flex-1">
+                        <!-- LOGO IMAGE (Footer) -->
+                        <img src="images/logo.webp" alt="Derila Ergo Logo" class="h-8 w-auto opacity-70 grayscale hover:opacity-100 transition-opacity">
+                        
+                        <p class="text-gray-500 text-sm leading-relaxed max-w-sm" data-i18n="footer_text">
+                            Derila is dedicated to improving sleep quality through smart, ergonomic design. Our products are crafted to support comfort, recovery, and better rest.
+                        </p>
+                    </div>
+
+                    <!-- CUSTOMER SUPPORT SECTION -->
+                    <div class="flex flex-col items-center md:items-start gap-5 flex-1 w-full md:w-auto">
+                        <h3 class="text-sm font-black text-gray-900 uppercase tracking-wider" data-i18n="footer_care_title">CUSTOMER SUPPORT</h3>
+                        <div class="flex flex-col gap-3 w-full max-w-xs">
+                            <a href="mailto:support@derila.com" class="flex items-center justify-center md:justify-start gap-3 text-gray-600 hover:text-black transition font-bold text-sm bg-white md:bg-transparent p-3 md:p-0 rounded-lg shadow-sm md:shadow-none border border-gray-200 md:border-none">
+                                <i class="fas fa-envelope text-blue-600 md:text-gray-400"></i>
+                                <span data-i18n="footer_email">Email Support</span>
+                            </a>
+                            <button onclick="alert('Live chat connecting...')" class="flex items-center justify-center md:justify-start gap-3 text-gray-600 hover:text-black transition font-bold text-sm bg-white md:bg-transparent p-3 md:p-0 rounded-lg shadow-sm md:shadow-none border border-gray-200 md:border-none w-full">
+                                <i class="fas fa-comment-dots text-green-600 md:text-gray-400"></i>
+                                <span data-i18n="footer_chat">24/7 Live Chat</span>
+                            </button>
+                            <!-- ADDED PHYSICAL ADDRESS PLACEHOLDER TO BUILD TRUST WITH GOOGLE -->
+                            <div class="flex items-start justify-center md:justify-start gap-3 text-gray-500 text-xs mt-2">
+                                <i class="fas fa-map-marker-alt mt-0.5 shrink-0"></i>
+                                <span>1234 Commerce St, Suite 100, Sleep City, NY 10001, USA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col-reverse md:flex-row justify-between items-center gap-6 border-t border-gray-200 pt-8 text-xs text-gray-400">
+                    <p class="text-center md:text-left">© 2025 Derila. All rights reserved.</p>
+                    <div class="flex items-center gap-6">
+                        <button onclick="showPolicy('privacy')" class="hover:text-gray-600 transition-colors font-medium p-2">Privacy Policy</button>
+                        <button onclick="showPolicy('terms')" class="hover:text-gray-600 transition-colors font-medium p-2">Terms of Service</button>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col items-center gap-3 mt-8">
+                    <span class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Guaranteed Safe Checkout</span>
+                    <div class="flex items-center gap-3 grayscale opacity-60">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard" class="h-5 w-auto">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" class="h-5 w-auto">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" class="h-5 w-auto">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg" alt="Amex" class="h-5 w-auto">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- LEGAL PAGE CONTAINER (Hidden by default) -->
+    <div id="legal-page" class="hidden-section w-full bg-white min-h-screen">
+        <div class="border-b border-gray-200 py-4 px-4 sticky top-0 bg-white z-50 shadow-sm">
+            <div class="container mx-auto max-w-4xl flex justify-between items-center">
+                <!-- LOGO IMAGE (Legal Header) -->
+                <img src="images/logo.webp" alt="Derila Ergo Logo" class="h-6 w-auto">
+                <button onclick="hidePolicy()" class="flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-800 p-2">
+                    <i class="fas fa-arrow-left"></i> <span class="hidden sm:inline">Back to Home</span><span class="sm:hidden">Back</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container mx-auto max-w-3xl px-6 py-10">
+            <!-- Privacy Content -->
+            <div id="privacy-content" class="hidden-section space-y-6 text-slate-700 text-sm md:text-base leading-relaxed">
+                <h1 class="text-2xl md:text-3xl font-black text-slate-900 mb-6">Privacy Policy</h1>
+                <p class="text-slate-400 text-xs uppercase tracking-wide font-bold">Last Updated: October 2025</p>
+                <p>At Derila ("we", "our", or "us"), we are committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Derila.</p>
+                <h3 class="text-lg font-bold text-slate-900 mt-6">1. Information We Collect</h3>
+                <p>We collect information you provide directly to us. For example, we collect information when you make a purchase, subscribe to our newsletter, or contact us.</p>
+                <h3 class="text-lg font-bold text-slate-900 mt-6">2. Contact Us</h3>
+                <ul class="list-none space-y-2 mt-2 font-medium text-slate-900">
+                    <li><span class="text-slate-500">Email:</span> support@derila.com</li>
+                    <li><span class="text-slate-500">Address:</span> 1234 Commerce St, Suite 100, Sleep City, NY 10001, USA</li>
+                </ul>
+            </div>
+
+            <!-- Terms Content -->
+            <div id="terms-content" class="hidden-section space-y-6 text-slate-700 text-sm md:text-base leading-relaxed">
+                <h1 class="text-2xl md:text-3xl font-black text-slate-900 mb-6">Terms of Service</h1>
+                <p class="text-slate-400 text-xs uppercase tracking-wide font-bold">Last Updated: October 2025</p>
+                <h3 class="text-lg font-bold text-slate-900 mt-6">1. Overview</h3>
+                <p>This website is operated by Derila. Throughout the site, the terms "we", "us" and "our" refer to Derila.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // TRANSLATIONS UPDATED TO ENGLISH FOR ALL TO PREVENT OLD CONTENT FROM SHOWING
+        const translations = {
+            en: {
+                top_bar: "SPECIAL LIMITED TIME OFFER | 70% OFF",
+                sub_header_1: "ERGONOMIC SLEEP SUPPORT",
+                sub_header_2: "FAST & FREE SHIPPING",
+                sub_header_3: "30-DAY GUARANTEE",
+                hero_title: "The Ergonomic Pillow Designed for Better Sleep",
+                hero_subtitle: "Wake up feeling rested, supported, and refreshed — every single morning.",
+                ratings: "1,400+ Customers Say It Improved Their Sleep Quality",
+                main_title: "The Pillow That Helps You Sleep Better — Naturally",
+                subtitle: "Designed to support your neck and spine while you sleep, Derila Ergo helps reduce discomfort, improve posture, and promote deeper, more restorative rest — without medication or complicated solutions.",
+                why_love: "Why People Choose Derila Ergo",
+                bullet_1: "Supports natural neck and spine alignment",
+                bullet_2: "Helps reduce tension and morning stiffness",
+                bullet_3: "Promotes deeper, uninterrupted sleep",
+                bullet_4: "Breathable design prevents overheating",
+                bullet_5: "Comfortable for side, back, and combination sleepers",
+                social_proof: "8,000+ Customers: <br class='sm:hidden'><span class='font-normal italic text-slate-600'>“Sleeping better than I have in years.”</span>",
+                stock: "In Stock",
+                limited_deal: "Offer Ends Soon",
+                select_title: "Select Your Country to Unlock Your Best Offer",
+                select_subtitle: "Get local pricing, faster delivery, and the best available deal in your region.<br class='hidden md:block'>Select your country below to see your exclusive deal.",
+                footer_care_title: "CUSTOMER SUPPORT",
+                footer_email: "Email Support",
+                footer_chat: "24/7 Live Chat",
+                cta_button: "GET 70% OFF TODAY",
+                cta_guarantee: "Try it risk-free with our 30-day money-back guarantee.",
+                footer_text: "Derila is dedicated to improving sleep quality through smart, ergonomic design. Our products are crafted to support comfort, recovery, and better rest."
+            }
+        };
+
+        // Copiando o conteúdo em inglês para outras chaves para garantir consistência
+        ['de', 'nl', 'sv', 'da', 'no', 'fi'].forEach(lang => {
+            translations[lang] = translations['en'];
+        });
+
+        function setLanguage(lang, countryCode) {
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key]) {
+                    el.innerHTML = translations[lang][key];
+                }
+            });
+
+            const regionFlag = document.getElementById('dynamic-region-flag');
+            if (regionFlag) {
+                regionFlag.src = `https://flagcdn.com/w20/${countryCode}.png`;
+            }
+        }
+        
+        // Added country selection handler
+        function selectCountry(countryCode) {
+            // Redireciona o usuário para o link de oferta
+            window.location.href = 'https://mwebex.com/11164/5951/3/?';
+        }
+
+        function showPolicy(type) {
+            document.getElementById('landing-page').style.display = 'none';
+            document.getElementById('legal-page').style.display = 'block';
+            document.getElementById('privacy-content').style.display = 'none';
+            document.getElementById('terms-content').style.display = 'none';
+            window.scrollTo(0, 0); // Always scroll to top when changing views
+            
+            if(type === 'privacy') {
+                document.getElementById('privacy-content').style.display = 'block';
+            } else if(type === 'terms') {
+                document.getElementById('terms-content').style.display = 'block';
+            }
+        }
+
+        function hidePolicy() {
+            document.getElementById('legal-page').style.display = 'none';
+            document.getElementById('landing-page').style.display = 'block';
+            // Scroll back to bottom or relevant section if desired, but top is safer for UX reset
+            window.scrollTo(0, 0); 
+        }
+    </script>
+</body>
+</html>
