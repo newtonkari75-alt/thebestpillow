@@ -1,456 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script defer src="https://cdn.kavrocdn.com/code/8300-310011f2-af65-4ed1-847a-074419250efe"></script>
-    <!-- SEO ESSENTIALS & PERFORMANCE -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- Added user-scalable=no to prevent accidental zoom issues on layout, though use with caution for accessibility -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- Primary SEO -->
-    <title>Derila Ergo – Ergonomic Pillow for Better Sleep | 70% OFF Today</title>
-    <!-- UPDATED GUARANTEE TO 60 DAYS -->
-    <meta name="description" content="Experience deeper, more comfortable sleep with Derila Ergo — an ergonomic pillow designed to support your neck and improve rest. 60-day money-back guarantee. Limited-time 70% OFF.">
-    <meta name="keywords" content="Derila Ergo, Ergonomic Pillow, Memory Foam Pillow, Neck Pain Pillow, Sleep Support, Orthopedic Pillow, Better Sleep, Neck Support">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Canonical & Hreflang -->
-    <link rel="canonical" href="https://derilaergo.shop/">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://derilaergo.shop/">
-    <meta property="og:title" content="Derila Ergo – Ergonomic Pillow for Better Sleep">
-    <meta property="og:description" content="Wake up feeling rested. Ergonomic pillow designed to support your neck and spine.">
-    <!-- Updated OG Image path as well -->
-    <meta property="og:image" content="images/hero.webp">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Derila">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17846440891"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <!-- Preconnect & DNS-Prefetch for Performance -->
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://cdn.tailwindcss.com">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+      gtag('config', 'AW-17846440891');
+    </script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17879355180"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17879355180');
+    </script>
+
+    <script src="https://api.stuart-little.com/code/8300-7244329c-542c-4f22-a642-e852b3197198"></script>
+
+    <!-- ========================================== -->
+    <!-- SEO & METADATA                             -->
+    <!-- ========================================== -->
+    <title data-translate="meta_title">Derila Ergo Pillow - Ergonomic Pillow - Sleep Better</title>
+    <meta name="title" content="Derila Ergo Pillow - Ergonomic Pillow - Sleep Better">
+    <meta name="description" content="Discover Derila Ergo Pillow: ergonomic design supporting neck and head. 70% OFF today! Fast shipping.">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://thebestpillow-global.vercel.app/">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Derila Ergo - The Pillow for Better Sleep">
+    <meta property="og:description" content="Designed to ergonomically support neck and head. Order now -70%!">
+    <meta property="og:image" content="https://thebestpillow-dk.vercel.app/images/derilaergo1.webp">
+    
+    <!-- Styles & Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="dns-prefetch" href="https://flagcdn.com">
-    
-    <!-- EXISTING SCRIPTS AND STYLES -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/faviconV2.png" type="image/png" onerror="this.onerror=null;this.src='https://placehold.co/32x32/d5b398/333333?text=D';">
+
     <style>
         body {
-            font-family: 'Inter', sans-serif;
-            -webkit-font-smoothing: antialiased; /* Smoother fonts on iOS */
+            font-family: 'Montserrat', sans-serif;
         }
-        .hero-shadow {
-            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+        .star-filled {
+            color: #f59e0b; /* Tailwind amber-500 */
         }
-        .flag-btn {
-            cursor: pointer;
-            transition: transform 0.2s, opacity 0.2s;
+        .hero-section-bg {
+            background-color: #D5B398;
         }
-        .flag-btn:active { /* Better feedback on touch */
-            transform: scale(0.95);
-            opacity: 0.8;
+        .modal-open {
+            overflow: hidden;
         }
-        .hidden-section {
-            display: none;
+        /* Scroll Animation Styles */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
         }
-        /* Tap highlight color removal for cleaner mobile feel */
-        * {
-            -webkit-tap-highlight-color: transparent;
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* New Glassmorphism Utility */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
         }
     </style>
 </head>
-<body class="bg-gray-50 min-h-screen flex flex-col overflow-x-hidden"> <!-- Prevent horizontal scroll -->
+<body class="bg-white text-gray-800 relative">
 
-    <!-- LANDING PAGE CONTENT -->
-    <div id="landing-page">
-        
-        <!-- Top Bar -->
-        <div class="bg-black text-white text-[10px] md:text-xs font-bold py-2.5 px-2 text-center uppercase tracking-wide w-full leading-tight">
-            <span data-i18n="top_bar">SPECIAL LIMITED TIME OFFER | 70% OFF</span>
-        </div>
-
-        <!-- Sub-header -->
-        <div class="bg-gray-100 text-xs py-3 border-b border-gray-200 w-full">
-            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 text-center">
-                <!-- REMOVIDO ERGONOMIC SLEEP SUPPORT E BANDEIRA -->
-                <div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 text-[10px] md:text-xs font-semibold text-gray-700 uppercase leading-none">
-                    <span class="flex items-center"><i class="fas fa-truck text-black mr-1.5"></i> <span data-i18n="sub_header_2">FAST & FREE SHIPPING</span></span>
-                    <!-- UPDATED GUARANTEE TO 60 DAYS -->
-                    <span class="flex items-center"><i class="fas fa-shield-alt text-black mr-1.5"></i> <span data-i18n="sub_header_3">60-DAY GUARANTEE</span></span>
-                </div>
+    <!-- Header -->
+    <header class="sticky top-0 bg-white/90 backdrop-blur-md z-40 shadow-sm border-b border-gray-100">
+        <div class="container mx-auto flex justify-center items-center p-4">
+            <div>
+                <img src="images/imgi_56_default.webp" width="120" height="28" alt="Derila Ergo Logo" class="h-7 w-auto transition-opacity hover:opacity-80" onerror="this.onerror=null;this.src='https://placehold.co/120x40/ffffff/333333?text=Derila+Ergo';">
             </div>
         </div>
+    </header>
 
-        <!-- Navbar -->
-        <nav class="bg-white px-4 py-3.5 sticky top-0 z-50 shadow-md w-full backdrop-blur-sm bg-white/95">
-            <div class="container mx-auto flex justify-center items-center">
-                <div class="flex items-center shrink-0">
-                    <!-- LOGO IMAGE (Header) -->
-                    <!-- CENTRALIZADA E REDUZIDA: h-6 no mobile, h-8 no desktop -->
-                    <img src="images/logo.webp" alt="Derila Ergo Logo" class="h-6 md:h-8 w-auto object-contain">
-                </div>
-                <!-- REMOVIDAS BANDEIRAS DA DIREITA -->
-            </div>
-        </nav>
-
-        <!-- Hero Image Section -->
-        <!-- MOBILE FIRST: Uses h-[45vh] for mobile proportionality (not too tall, not too short), fixed pixel height for desktop -->
-        <div class="relative w-full h-[45vh] md:h-[550px] bg-gray-200 overflow-hidden group">
-            <!-- HERO IMAGE -->
-            <img src="images/hero.webp" class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" alt="Person sleeping on Derila pillow">
-            
-            <!-- Subtle gradient for polish -->
-            <div class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
-        </div>
-
-        <!-- Content Section -->
-        <div class="container mx-auto px-5 py-8 md:py-12 max-w-5xl">
-            <div class="grid md:grid-cols-1 gap-8">
-                <div>
-                    <!-- Ratings -->
-                    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-2 mb-4">
-                        <div class="flex items-center gap-2">
-                            <div class="flex text-yellow-400 text-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <!-- UPDATED RATING TO 4.5 -->
-                            <span class="font-bold text-gray-900 text-lg">4.5 / 5</span>
-                        </div>
-                        <span class="hidden sm:inline text-gray-300 mx-1">|</span>
-                        <!-- UPDATED CUSTOMER COUNT TEXT -->
-                        <span class="text-gray-600 text-sm italic leading-tight" data-i18n="ratings">Real Customer Reviews: 30,000+ Satisfied Customers</span>
-                    </div>
-
-                    <!-- Main Title -->
-                    <!-- Mobile: 2.25rem (36px), Desktop: 3.75rem (60px) for high impact -->
-                    <h1 class="text-4xl md:text-5xl font-black text-slate-900 leading-[1.1] mb-5 tracking-tight" data-i18n="main_title">
-                        The Pillow That Helps You Sleep Better — Naturally
-                    </h1>
-
-                    <!-- Subtitle -->
-                    <!-- Increased line-height for mobile readability -->
-                    <p class="text-slate-600 font-medium text-lg md:text-xl leading-relaxed mb-8 max-w-3xl" data-i18n="subtitle">
-                        Designed to support your neck and spine while you sleep, Derila Ergo helps reduce discomfort, improve posture, and promote deeper, more restorative rest — without medication or complicated solutions.
-                    </p>
-
-                    <!-- Features Section -->
-                    <div class="mb-8 bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                        <h3 class="text-lg font-bold text-slate-900 mb-5 uppercase tracking-wide border-l-4 border-blue-600 pl-3" data-i18n="why_love">
-                            Why People Choose Derila Ergo
-                        </h3>
-                        <ul class="space-y-4 md:grid md:grid-cols-2 md:space-y-0 md:gap-x-6 md:gap-y-4">
-                            <li class="flex items-start gap-3.5">
-                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
-                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_1">Supports natural neck and spine alignment</span>
-                            </li>
-                            <li class="flex items-start gap-3.5">
-                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
-                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_2">Helps reduce tension and morning stiffness</span>
-                            </li>
-                            <li class="flex items-start gap-3.5">
-                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
-                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_3">Promotes deeper, uninterrupted sleep</span>
-                            </li>
-                            <li class="flex items-start gap-3.5">
-                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
-                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_4">Breathable design prevents overheating</span>
-                            </li>
-                            <li class="flex items-start gap-3.5 md:col-span-2">
-                                <i class="fas fa-check-circle text-blue-600 text-xl mt-0.5 shrink-0"></i>
-                                <span class="text-slate-700 font-medium leading-snug" data-i18n="bullet_5">Comfortable for side, back, and combination sleepers</span>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- CTA SECTION -->
-                    <div class="w-full mb-10">
-                        <!-- Massive touch target for mobile conversion -->
-                        <button onclick="document.getElementById('country-selection').scrollIntoView({ behavior: 'smooth' })" class="w-full bg-[#1e3a8a] active:bg-blue-900 hover:bg-blue-800 text-white font-black text-xl md:text-2xl py-5 md:py-6 rounded-xl shadow-lg hover:shadow-2xl active:transform active:scale-[0.98] transition-all duration-200 uppercase tracking-wide mb-5 flex items-center justify-center gap-3">
-                            <span data-i18n="cta_button">GET 70% OFF TODAY</span>
-                            <i class="fas fa-arrow-right animate-pulse"></i>
-                        </button>
-                        
-                        <div class="flex items-center justify-center gap-3 text-gray-500 text-xs md:text-sm font-semibold">
-                            <i class="fas fa-lock text-gray-400"></i>
-                            <!-- UPDATED GUARANTEE TO 60 DAYS -->
-                            <span class="text-center" data-i18n="cta_guarantee">Try it risk-free with our 60-day money-back guarantee.</span>
-                        </div>
-                    </div>
-
-                    <!-- Social Proof Box -->
-                    <div class="border border-blue-50 bg-blue-50/30 rounded-xl p-5 shadow-sm md:max-w-lg mx-auto mb-12">
-                        <div class="flex flex-col items-center justify-center gap-3 pb-4 border-b border-blue-100 mb-3 text-center">
-                            <div class="flex -space-x-3">
-                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=32" alt="">
-                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=11" alt="">
-                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=53" alt="">
-                                <img class="w-10 h-10 rounded-full border-2 border-white shadow-sm" src="https://i.pravatar.cc/100?img=3" alt="">
-                                <div class="w-10 h-10 rounded-full border-2 border-white bg-green-100 flex items-center justify-center text-[10px] font-bold text-green-800 shadow-sm">
-                                    <i class="fas fa-plus"></i>
-                                </div>
-                            </div>
-                            <span class="text-sm md:text-base font-bold text-slate-800 leading-snug" data-i18n="social_proof">8,000+ Customers: <br class="sm:hidden"><span class="font-normal italic text-slate-600">“Sleeping better than I have in years.”</span></span>
-                        </div>
-                        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 text-sm font-bold mt-2">
-                            <div class="flex items-center gap-2 text-green-700 bg-green-50 px-3 py-1 rounded-full">
-                                <i class="fas fa-check-circle"></i>
-                                <span data-i18n="stock">In Stock</span>
-                            </div>
-                            <div class="flex items-center gap-2 text-red-600 bg-red-50 px-3 py-1 rounded-full">
-                                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-                                <span data-i18n="limited_deal">Offer Ends Soon</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Country Selection Section (SCROLL TARGET) -->
-        <div id="country-selection" class="w-full bg-white border-t border-gray-100 py-12 md:py-20 scroll-mt-10">
-            <div class="container mx-auto px-4 text-center max-w-5xl">
-                <h2 class="text-2xl md:text-4xl font-extrabold text-slate-900 mb-4 tracking-tight leading-tight" data-i18n="select_title">
-                    Select Your Country to Unlock Your Best Offer
-                </h2>
-                <p class="text-slate-500 text-base md:text-lg font-medium leading-relaxed mb-10 max-w-2xl mx-auto" data-i18n="select_subtitle">
-                    Get local pricing, faster delivery, and the best available deal in your region.<br class="hidden md:block">
-                    Select your country below to see your exclusive deal.
-                </p>
-                <!-- NOTE TO USER: Ensure these links redirect to your actual checkout or product page -->
-                <!-- Mobile: Single column (grid-cols-1) is enforced by default in Tailwind unless overridden. Added gap-4 for touch separation. -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+    <main>
+        <!-- Hero Section -->
+        <section id="order" class="hero-section-bg text-[#2D2D2D]">
+            <div class="container mx-auto px-6 py-10 md:py-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 items-center">
                     
-                    <!-- Canada (CA) -->
-                    <a href="javascript:void(0)" onclick="selectCountry('ca')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
-                        <img src="https://flagcdn.com/w80/ca.png" alt="Canada" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
-                        <div class="text-left flex-1">
-                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Canada</span>
-                            <!-- REMOVIDO "Only 14 Left" - Agora mostra apenas Low Stock -->
-                            <span class="text-xs font-bold text-red-600 flex items-center gap-1.5 mt-0.5"><i class="fas fa-exclamation-triangle"></i> Low Stock</span>
-                        </div>
-                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
-                    </a>
-
-                    <!-- Australia (AU) -->
-                    <a href="javascript:void(0)" onclick="selectCountry('au')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
-                        <img src="https://flagcdn.com/w80/au.png" alt="Australia" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
-                        <div class="text-left flex-1">
-                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Australia</span>
-                            <span class="text-xs font-bold text-orange-500 flex items-center gap-1.5 mt-0.5"><i class="fas fa-fire-alt"></i> Selling Fast</span>
-                        </div>
-                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
-                    </a>
-
-                    <!-- Finland (FI) -->
-                    <a href="javascript:void(0)" onclick="selectCountry('fi')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
-                        <img src="https://flagcdn.com/w80/fi.png" alt="Finland" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
-                        <div class="text-left flex-1">
-                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Finland</span>
-                            <span class="text-xs font-bold text-green-600 flex items-center gap-1.5 mt-0.5"><i class="fas fa-check-circle"></i> Ships Immediately</span>
-                        </div>
-                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
-                    </a>
-
-                    <!-- New Zealand (NZ) -->
-                    <a href="javascript:void(0)" onclick="selectCountry('nz')" class="group bg-white p-4 rounded-xl border border-gray-200 shadow-sm hover:shadow-md active:border-blue-500 transition-all duration-200 flex items-center gap-4 no-underline hover:bg-gray-50">
-                        <img src="https://flagcdn.com/w80/nz.png" alt="New Zealand" class="w-14 h-auto rounded shadow-sm object-cover shrink-0">
-                        <div class="text-left flex-1">
-                            <span class="block font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">New Zealand</span>
-                            <span class="text-xs font-bold text-red-500 flex items-center gap-1.5 mt-0.5"><i class="fas fa-clock"></i> Order Soon</span>
-                        </div>
-                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500"></i>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer Section -->
-        <footer class="bg-gray-100 border-t border-gray-200 pt-12 pb-10">
-            <div class="container mx-auto px-6 max-w-5xl">
-                
-                <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-10 mb-10 text-center md:text-left">
-                    <!-- Brand Info -->
-                    <div class="flex flex-col items-center md:items-start gap-4 flex-1">
-                        <!-- LOGO IMAGE (Footer) -->
-                        <img src="images/logo.webp" alt="Derila Ergo Logo" class="h-8 w-auto opacity-70 grayscale hover:opacity-100 transition-opacity">
+                    <!-- Text Content (LEFT COLUMN) -->
+                    <div class="text-center md:text-left md:col-start-1 md:row-start-1 reveal flex flex-col items-center md:items-start">
                         
-                        <p class="text-gray-500 text-sm leading-relaxed max-w-sm" data-i18n="footer_text">
-                            Derila is dedicated to improving sleep quality through smart, ergonomic design. Our products are crafted to support comfort, recovery, and better rest.
-                        </p>
-                    </div>
-
-                    <!-- CUSTOMER SUPPORT SECTION -->
-                    <div class="flex flex-col items-center md:items-start gap-5 flex-1 w-full md:w-auto">
-                        <h3 class="text-sm font-black text-gray-900 uppercase tracking-wider" data-i18n="footer_care_title">CUSTOMER SUPPORT</h3>
-                        <div class="flex flex-col gap-3 w-full max-w-xs">
-                            <a href="mailto:support@derila.com" class="flex items-center justify-center md:justify-start gap-3 text-gray-600 hover:text-black transition font-bold text-sm bg-white md:bg-transparent p-3 md:p-0 rounded-lg shadow-sm md:shadow-none border border-gray-200 md:border-none">
-                                <i class="fas fa-envelope text-blue-600 md:text-gray-400"></i>
-                                <span data-i18n="footer_email">Email Support</span>
-                            </a>
-                            <button onclick="alert('Live chat connecting...')" class="flex items-center justify-center md:justify-start gap-3 text-gray-600 hover:text-black transition font-bold text-sm bg-white md:bg-transparent p-3 md:p-0 rounded-lg shadow-sm md:shadow-none border border-gray-200 md:border-none w-full">
-                                <i class="fas fa-comment-dots text-green-600 md:text-gray-400"></i>
-                                <span data-i18n="footer_chat">24/7 Live Chat</span>
-                            </button>
-                            <!-- ADDED PHYSICAL ADDRESS PLACEHOLDER TO BUILD TRUST WITH GOOGLE -->
-                            <div class="flex items-start justify-center md:justify-start gap-3 text-gray-500 text-xs mt-2">
-                                <i class="fas fa-map-marker-alt mt-0.5 shrink-0"></i>
-                                <span>1234 Commerce St, Suite 100, Sleep City, NY 10001, USA</span>
+                        <!-- NEW PROFESSIONAL BADGE -->
+                        <div class="glass-panel rounded-full px-5 py-2 mb-6 inline-flex items-center gap-3 shadow-sm mx-auto md:mx-0">
+                            <div class="flex items-center gap-1 text-gray-900">
+                                <span class="font-bold text-sm">4.5</span>
+                                <i class="star-filled w-4 h-4" data-feather="star" style="fill: #f59e0b;"></i>
+                                <i class="star-filled w-4 h-4" data-feather="star" style="fill: #f59e0b;"></i>
+                                <i class="star-filled w-4 h-4" data-feather="star" style="fill: #f59e0b;"></i>
+                                <i class="star-filled w-4 h-4" data-feather="star" style="fill: #f59e0b;"></i>
+                                <i data-feather="star" class="text-gray-500 w-4 h-4" style="fill: #d1d5db;"></i>
                             </div>
+                            <div class="w-px h-4 bg-gray-400 opacity-50"></div>
+                            <span class="text-xs font-bold uppercase tracking-wide text-gray-800" data-translate="discount_badge">-70% DISCOUNT</span>
+                        </div>
+
+                        <!-- SAFE TITLE -->
+                        <h1 class="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight tracking-tight text-gray-900" data-translate="hero_title">
+                            Wake up fresh <br class="hidden sm:block">and rested
+                        </h1>
+                        
+                        <!-- SAFE DESCRIPTION -->
+                        <p class="text-lg md:text-xl mb-8 text-gray-800 leading-relaxed max-w-lg font-medium opacity-90" data-translate="hero_desc">
+                            Ergonomic design that helps keep head, neck and spine aligned all night.
+                        </p>
+                        
+                        <!-- Mobile Image -->
+                        <div class="my-4 flex justify-center items-center md:hidden reveal w-full">
+                            <img src="images/derilaergo1.webp" width="500" height="500" alt="Derila Ergo Pillow" class="w-full max-w-sm h-auto object-contain drop-shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/400x300/f3f4f6/333333?text=Ergonomic+Pillow';">
+                        </div>
+
+                        <!-- NEW BENEFITS BOX -->
+                        <div class="w-full max-w-md glass-panel rounded-2xl p-6 mb-8 text-left shadow-sm reveal border border-white/40">
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="bg-blue-600 rounded-full p-1 mr-3 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-white"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </div>
+                                    <span class="text-gray-800 font-medium text-sm sm:text-base" data-translate="bullet_1">Get 70% off (Limited Stock)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="bg-blue-600 rounded-full p-1 mr-3 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-white"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </div>
+                                    <span class="text-gray-800 font-medium text-sm sm:text-base" data-translate="bullet_2">Optimal support for neck and shoulders</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="bg-blue-600 rounded-full p-1 mr-3 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-white"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </div>
+                                    <span class="text-gray-800 font-medium text-sm sm:text-base" data-translate="bullet_3">Try risk-free – 60 night guarantee</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex flex-col-reverse md:flex-row justify-between items-center gap-6 border-t border-gray-200 pt-8 text-xs text-gray-400">
-                    <p class="text-center md:text-left">© 2025 Derila. All rights reserved.</p>
-                    <div class="flex items-center gap-6">
-                        <button onclick="showPolicy('privacy')" class="hover:text-gray-600 transition-colors font-medium p-2">Privacy Policy</button>
-                        <button onclick="showPolicy('terms')" class="hover:text-gray-600 transition-colors font-medium p-2">Terms of Service</button>
+                    <!-- Desktop Image -->
+                    <div class="hidden md:flex justify-center items-center md:col-start-2 md:row-start-1 md:row-span-2 h-full reveal">
+                        <img src="images/derila-ergo.webp" width="500" height="500" alt="Derila Ergo Pillow" class="w-full max-w-lg h-auto transform transition hover:scale-105 duration-500 drop-shadow-xl" onerror="this.onerror=null;this.src='https://placehold.co/500x500/f3f4f6/333333?text=Ergonomic+Pillow';">
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="flex flex-col gap-3 mt-2 md:mt-4 md:col-start-1 md:row-start-2 w-full max-w-md reveal">
+                        <a href="https://mwebora.com/11164/1907/163/?" rel="noopener noreferrer" class="group flex items-center justify-center bg-gradient-to-r from-[#2b5dff] to-[#1a4bd6] hover:from-[#1a4bd6] hover:to-[#2b5dff] text-white text-lg font-bold px-8 py-4 rounded-full flex-1 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-center relative overflow-hidden">
+                            <span class="relative z-10" data-translate="btn_buy">Buy Now – Save 70%</span>
+                            <div class="absolute inset-0 bg-white/20 group-hover:translate-x-full transition-transform duration-500 -skew-x-12 -ml-4 w-1/2 h-full"></div>
+                        </a>
+                        
+                        <a href="https://mwebora.com/11164/1907/163/?#reviews" rel="noopener noreferrer" class="flex items-center justify-center bg-white/80 hover:bg-white text-[#2b5dff] border border-[#2b5dff]/30 text-base font-medium px-8 py-3 rounded-full flex-1 transition-all duration-300 shadow-sm hover:shadow-md text-center backdrop-blur-sm">
+                            <span data-translate="btn_reviews">Read Reviews</span>
+                        </a>
                     </div>
                 </div>
-                
-                <div class="flex flex-col items-center gap-3 mt-8">
-                    <span class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Guaranteed Safe Checkout</span>
-                    <div class="flex items-center gap-3 grayscale opacity-60">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard" class="h-5 w-auto">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" class="h-5 w-auto">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" class="h-5 w-auto">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg" alt="Amex" class="h-5 w-auto">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-10 border-t border-gray-800">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p class="font-medium text-white mb-2" data-translate="footer_copy">&copy; 2026 Derila Ergo. All rights reserved.</p>
+            <div class="inline-flex items-center gap-2 bg-gray-800/50 px-3 py-1 rounded-full mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-400"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span class="text-xs text-gray-400" data-translate="footer_auth">Authorized Retailer</span>
+            </div>
+            
+            <div class="mb-8 text-gray-500 text-xs space-y-1">
+                <p>Convenity, UAB | Gedimino St. 45-7, LT-44248, Kaunas, Lithuania</p>
+                <p>Support: support@derila-ergo.com | +14046788537</p>
+            </div>
+            
+            <div class="flex justify-center flex-wrap gap-4 md:gap-8 mb-8 text-xs font-medium uppercase tracking-wide">
+                <button onclick="openModal()" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5" data-translate="link_privacy">Privacy Policy</button>
+                <button onclick="openModal()" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5" data-translate="link_terms">Terms of Service</button>
+                <button onclick="openModal()" class="hover:text-white transition-colors border-b border-transparent hover:border-white pb-0.5" data-translate="link_contact">Contact Us</button>
+            </div>
+
+            <div class="border-t border-gray-800 pt-6 mt-4 text-[11px] text-gray-500 max-w-3xl mx-auto space-y-2 leading-relaxed">
+                <p data-translate="disclaimer_1">
+                    This site is not a part of the Google™ website or Google Inc. Additionally, This site is NOT endorsed by Google™ in any way. Google™ is a trademark of Google Inc.
+                </p>
+                <p data-translate="disclaimer_2">
+                    This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.
+                </p>
+                <p data-translate="disclaimer_3">
+                    Results may vary. All information on this website is for informational purposes only and does not replace medical advice or treatment. Always consult your doctor or other qualified health provider with any questions regarding a medical condition.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- POLICY MODAL -->
+    <div id="policy-modal" class="fixed inset-0 z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-gray-900/75 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
+        <div class="fixed inset-0 z-10 overflow-y-auto">
+            <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                <div class="relative transform overflow-hidden rounded-xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-4xl max-h-[90vh] flex flex-col border border-gray-200">
+                    
+                    <div class="bg-white px-4 py-4 sm:px-6 border-b border-gray-100 flex justify-between items-center sticky top-0 z-20 shadow-sm">
+                        <h3 class="text-lg font-bold leading-6 text-gray-900" id="modal-title" data-translate="modal_title">Legal Information</h3>
+                        <button type="button" onclick="closeModal()" class="rounded-full p-1 bg-gray-100 text-gray-400 hover:text-gray-600 hover:bg-gray-200 focus:outline-none transition-colors">
+                            <span class="sr-only">Close</span>
+                            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="bg-white px-6 pb-8 pt-6 overflow-y-auto">
+                        <div class="prose prose-sm max-w-none text-gray-600">
+                            <h2 class="text-xl font-bold text-gray-900 mb-4 pb-2 border-b">Terms of Service (Global)</h2>
+                            <p class="mb-4"><strong>Thank you for visiting our website.</strong> Please read these Terms of Service carefully before using the Website.</p>
+                            <p>For full details, please refer to the official documentation provided upon purchase or contact our support team.</p>
+                            <h3 class="font-bold text-gray-900 mt-6 mb-2">Contact</h3>
+                            <p>Support: support@derila-ergo.com</p>
+                            
+                            <hr class="my-8 border-gray-200">
+                            
+                            <h2 class="text-xl font-bold text-gray-900 mb-4 pb-2 border-b">Privacy Policy</h2>
+                            <p>We are committed to protecting your privacy and ensuring the security of your personal data.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-4 py-4 sm:flex sm:flex-row-reverse sm:px-6 sticky bottom-0 z-20 border-t border-gray-100">
+                        <button type="button" onclick="closeModal()" class="w-full inline-flex justify-center rounded-lg border border-transparent bg-gray-900 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 sm:ml-3 sm:w-auto sm:text-sm transition-all" data-translate="btn_close">Close</button>
                     </div>
                 </div>
             </div>
-        </footer>
-    </div>
-
-    <!-- LEGAL PAGE CONTAINER (Hidden by default) -->
-    <div id="legal-page" class="hidden-section w-full bg-white min-h-screen">
-        <div class="border-b border-gray-200 py-4 px-4 sticky top-0 bg-white z-50 shadow-sm">
-            <div class="container mx-auto max-w-4xl flex justify-between items-center">
-                <!-- LOGO IMAGE (Legal Header) -->
-                <img src="images/logo.webp" alt="Derila Ergo Logo" class="h-6 w-auto">
-                <button onclick="hidePolicy()" class="flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-800 p-2">
-                    <i class="fas fa-arrow-left"></i> <span class="hidden sm:inline">Back to Home</span><span class="sm:hidden">Back</span>
-                </button>
-            </div>
-        </div>
-
-        <div class="container mx-auto max-w-3xl px-6 py-10">
-            <!-- Privacy Content -->
-            <div id="privacy-content" class="hidden-section space-y-6 text-slate-700 text-sm md:text-base leading-relaxed">
-                <h1 class="text-2xl md:text-3xl font-black text-slate-900 mb-6">Privacy Policy</h1>
-                <p class="text-slate-400 text-xs uppercase tracking-wide font-bold">Last Updated: October 2025</p>
-                <p>At Derila ("we", "our", or "us"), we are committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Derila.</p>
-                <h3 class="text-lg font-bold text-slate-900 mt-6">1. Information We Collect</h3>
-                <p>We collect information you provide directly to us. For example, we collect information when you make a purchase, subscribe to our newsletter, or contact us.</p>
-                <h3 class="text-lg font-bold text-slate-900 mt-6">2. Contact Us</h3>
-                <ul class="list-none space-y-2 mt-2 font-medium text-slate-900">
-                    <li><span class="text-slate-500">Email:</span> support@derila.com</li>
-                    <li><span class="text-slate-500">Address:</span> 1234 Commerce St, Suite 100, Sleep City, NY 10001, USA</li>
-                </ul>
-            </div>
-
-            <!-- Terms Content -->
-            <div id="terms-content" class="hidden-section space-y-6 text-slate-700 text-sm md:text-base leading-relaxed">
-                <h1 class="text-2xl md:text-3xl font-black text-slate-900 mb-6">Terms of Service</h1>
-                <p class="text-slate-400 text-xs uppercase tracking-wide font-bold">Last Updated: October 2025</p>
-                <h3 class="text-lg font-bold text-slate-900 mt-6">1. Overview</h3>
-                <p>This website is operated by Derila. Throughout the site, the terms "we", "us" and "our" refer to Derila.</p>
-            </div>
         </div>
     </div>
 
+    <!-- AUTO-TRANSLATION SCRIPT -->
     <script>
-        // TRANSLATIONS UPDATED TO ENGLISH FOR ALL TO PREVENT OLD CONTENT FROM SHOWING
+        // --- TRANSLATION DATA ---
         const translations = {
-            en: {
-                top_bar: "SPECIAL LIMITED TIME OFFER | 70% OFF",
-                sub_header_1: "ERGONOMIC SLEEP SUPPORT",
-                sub_header_2: "FAST & FREE SHIPPING",
-                // UPDATED GUARANTEE TO 60 DAYS
-                sub_header_3: "60-DAY GUARANTEE",
-                hero_title: "The Ergonomic Pillow Designed for Better Sleep",
-                hero_subtitle: "Wake up feeling rested, supported, and refreshed — every single morning.",
-                // UPDATED RATINGS TEXT
-                ratings: "Real Customer Reviews: 30,000+ Satisfied Customers",
-                main_title: "The Pillow That Helps You Sleep Better — Naturally",
-                subtitle: "Designed to support your neck and spine while you sleep, Derila Ergo helps reduce discomfort, improve posture, and promote deeper, more restorative rest — without medication or complicated solutions.",
-                why_love: "Why People Choose Derila Ergo",
-                bullet_1: "Supports natural neck and spine alignment",
-                bullet_2: "Helps reduce tension and morning stiffness",
-                bullet_3: "Promotes deeper, uninterrupted sleep",
-                bullet_4: "Breathable design prevents overheating",
-                bullet_5: "Comfortable for side, back, and combination sleepers",
-                social_proof: "8,000+ Customers: <br class='sm:hidden'><span class='font-normal italic text-slate-600'>“Sleeping better than I have in years.”</span>",
-                stock: "In Stock",
-                limited_deal: "Offer Ends Soon",
-                select_title: "Select Your Country to Unlock Your Best Offer",
-                select_subtitle: "Get local pricing, faster delivery, and the best available deal in your region.<br class='hidden md:block'>Select your country below to see your exclusive deal.",
-                footer_care_title: "CUSTOMER SUPPORT",
-                footer_email: "Email Support",
-                footer_chat: "24/7 Live Chat",
-                cta_button: "GET 70% OFF TODAY",
-                // UPDATED GUARANTEE TO 60 DAYS
-                cta_guarantee: "Try it risk-free with our 60-day money-back guarantee.",
-                footer_text: "Derila is dedicated to improving sleep quality through smart, ergonomic design. Our products are crafted to support comfort, recovery, and better rest."
+            'pt': {
+                'discount_badge': '-70% DESCONTO',
+                'hero_title': 'Acorde fresco <br class="hidden sm:block">e descansado',
+                'hero_desc': 'Design ergonômico que ajuda a manter a cabeça, pescoço e coluna alinhados durante toda a noite.',
+                'bullet_1': 'Aproveite 70% de desconto (Estoque limitado)',
+                'bullet_2': 'Suporte ideal para pescoço e ombros',
+                'bullet_3': 'Experimente sem riscos – Garantia de 60 noites',
+                'btn_buy': 'Comprar agora – Economize 70%',
+                'btn_reviews': 'Ler avaliações',
+                'footer_copy': '&copy; 2026 Derila Ergo. Todos os direitos reservados.',
+                'footer_auth': 'Revendedor Autorizado',
+                'link_privacy': 'Política de Privacidade',
+                'link_terms': 'Termos de Serviço',
+                'link_contact': 'Fale Conosco',
+                'disclaimer_1': 'Este site não faz parte do site do Google™ ou da Google Inc. Além disso, este site NÃO é endossado pelo Google™ de forma alguma.',
+                'disclaimer_2': 'Este site não faz parte do site do Facebook ou da Facebook Inc. Além disso, este site NÃO é endossado pelo Facebook de forma alguma.',
+                'disclaimer_3': 'Os resultados podem variar. Todas as informações neste site são apenas para fins informativos.',
+                'modal_title': 'Informação Legal',
+                'btn_close': 'Fechar',
+                'meta_title': 'Derila Ergo Pude - Travesseiro Ergonômico - Durma Melhor'
+            },
+            'da': {
+                'discount_badge': '-70% RABAT',
+                'hero_title': 'Vågn op frisk <br class="hidden sm:block">og udhvilet',
+                'hero_desc': 'Ergonomisk design, der hjælper med at holde hoved, nakke og rygsøjle på linje hele natten.',
+                'bullet_1': 'Udnyt 70% rabat (Begrænset parti)',
+                'bullet_2': 'Optimal støtte til nakke og skuldre',
+                'bullet_3': 'Prøv risikofrit – 60 nætters garanti',
+                'btn_buy': 'Køb nu – Spar 70%',
+                'btn_reviews': 'Læs anmeldelser',
+                'footer_copy': '&copy; 2026 Derila Ergo. Alle rettigheder forbeholdes.',
+                'footer_auth': 'Autoriseret forhandler',
+                'link_privacy': 'Privatlivspolitik',
+                'link_terms': 'Vilkår for brug',
+                'link_contact': 'Kontakt os',
+                'disclaimer_1': 'Dette websted er ikke en del af Google™ hjemmesiden eller Google Inc.',
+                'disclaimer_2': 'Dette websted er ikke en del af Facebook hjemmesiden eller Facebook Inc.',
+                'disclaimer_3': 'Resultaterne kan variere. Alle oplysninger er kun til informationsformål.',
+                'modal_title': 'Juridisk Information',
+                'btn_close': 'Luk',
+                'meta_title': 'Derila Ergo Pude - Ergonomisk Pude - Sov Bedre'
+            },
+            'sv': {
+                'discount_badge': '-70% RABATT',
+                'hero_title': 'Vakna upp pigg <br class="hidden sm:block">och utvilad',
+                'hero_desc': 'Ergonomisk design som hjälper till att hålla huvud, nacke och ryggrad i linje hela natten.',
+                'bullet_1': 'Utnyttja 70% rabatt (Begränsat lager)',
+                'bullet_2': 'Optimalt stöd för nacke och axlar',
+                'bullet_3': 'Prova riskfritt – 60 nätters garanti',
+                'btn_buy': 'Köp nu – Spara 70%',
+                'btn_reviews': 'Läs recensioner',
+                'footer_copy': '&copy; 2026 Derila Ergo. Alla rättigheter förbehållna.',
+                'footer_auth': 'Auktoriserad återförsäljare',
+                'link_privacy': 'Integritetspolicy',
+                'link_terms': 'Användarvillkor',
+                'link_contact': 'Kontakta oss',
+                'disclaimer_1': 'Denna webbplats är inte en del av Google™ webbplatsen eller Google Inc.',
+                'disclaimer_2': 'Denna webbplats är inte en del av Facebook webbplatsen eller Facebook Inc.',
+                'disclaimer_3': 'Resultaten kan variera. All information är endast i informationssyfte.',
+                'modal_title': 'Juridisk Information',
+                'btn_close': 'Stäng',
+                'meta_title': 'Derila Ergo Kudde - Ergonomisk Kudde - Sov Bättre'
+            },
+            'es': {
+                'discount_badge': '-70% DESCUENTO',
+                'hero_title': 'Despierta fresco <br class="hidden sm:block">y descansado',
+                'hero_desc': 'Diseño ergonómico que ayuda a mantener la cabeza, el cuello y la columna alineados durante toda la noche.',
+                'bullet_1': 'Obtén un 70% de descuento (Stock limitado)',
+                'bullet_2': 'Soporte óptimo para cuello y hombros',
+                'bullet_3': 'Prueba sin riesgos – Garantía de 60 noches',
+                'btn_buy': 'Comprar ahora – Ahorra 70%',
+                'btn_reviews': 'Leer reseñas',
+                'footer_copy': '&copy; 2026 Derila Ergo. Todos los derechos reservados.',
+                'footer_auth': 'Distribuidor Autorizado',
+                'link_privacy': 'Política de Privacidad',
+                'link_terms': 'Términos de Servicio',
+                'link_contact': 'Contáctanos',
+                'disclaimer_1': 'Este sitio no es parte del sitio web de Google™ o Google Inc. Además, este sitio NO está respaldado por Google™ de ninguna manera.',
+                'disclaimer_2': 'Este sitio no es parte del sitio web de Facebook o Facebook Inc. Además, este sitio NO está respaldado por Facebook de ninguna manera.',
+                'disclaimer_3': 'Los resultados pueden variar. Toda la información es solo para fines informativos.',
+                'modal_title': 'Información Legal',
+                'btn_close': 'Cerrar',
+                'meta_title': 'Almohada Derila Ergo - Almohada Ergonómica - Duerme Mejor'
+            },
+            'fr': {
+                'discount_badge': '-70% DE RÉDUCTION',
+                'hero_title': 'Réveillez-vous frais <br class="hidden sm:block">et reposé',
+                'hero_desc': 'Conception ergonomique qui aide à garder la tête, le cou et la colonne vertébrale alignés toute la nuit.',
+                'bullet_1': 'Obtenez 70% de réduction (Stock limité)',
+                'bullet_2': 'Soutien optimal pour le cou et les épaules',
+                'bullet_3': 'Essai sans risque – Garantie de 60 nuits',
+                'btn_buy': 'Acheter maintenant – Économisez 70%',
+                'btn_reviews': 'Lire les avis',
+                'footer_copy': '&copy; 2026 Derila Ergo. Tous droits réservés.',
+                'footer_auth': 'Revendeur Agréé',
+                'link_privacy': 'Politique de Confidentialité',
+                'link_terms': 'Conditions d\'Utilisation',
+                'link_contact': 'Contactez-nous',
+                'disclaimer_1': 'Ce site ne fait pas partie du site web de Google™ ou de Google Inc. De plus, ce site n\'est PAS approuvé par Google™.',
+                'disclaimer_2': 'Ce site ne fait pas partie du site web de Facebook ou de Facebook Inc. De plus, ce site n\'est PAS approuvé par Facebook.',
+                'disclaimer_3': 'Les résultats peuvent varier. Toutes les informations sont à titre informatif uniquement.',
+                'modal_title': 'Informations Légales',
+                'btn_close': 'Fermer',
+                'meta_title': 'Oreiller Derila Ergo - Oreiller Ergonomique - Dormez Mieux'
+            },
+            'de': {
+                'discount_badge': '-70% RABATT',
+                'hero_title': 'Wachen Sie frisch <br class="hidden sm:block">und ausgeruht auf',
+                'hero_desc': 'Ergonomisches Design, das hilft, Kopf, Nacken und Wirbelsäule die ganze Nacht über ausgerichtet zu halten.',
+                'bullet_1': 'Erhalten Sie 70% Rabatt (Begrenzter Vorrat)',
+                'bullet_2': 'Optimale Unterstützung für Nacken und Schultern',
+                'bullet_3': 'Risikofrei testen – 60 Nächte Garantie',
+                'btn_buy': 'Jetzt kaufen – 70% sparen',
+                'btn_reviews': 'Bewertungen lesen',
+                'footer_copy': '&copy; 2026 Derila Ergo. Alle Rechte vorbehalten.',
+                'footer_auth': 'Autorisierter Händler',
+                'link_privacy': 'Datenschutzerklärung',
+                'link_terms': 'Nutzungsbedingungen',
+                'link_contact': 'Kontaktieren Sie uns',
+                'disclaimer_1': 'Diese Website ist nicht Teil der Google™-Website oder von Google Inc. Außerdem wird diese Website NICHT von Google™ unterstützt.',
+                'disclaimer_2': 'Diese Website ist nicht Teil der Facebook-Website oder von Facebook Inc. Außerdem wird diese Website NICHT von Facebook unterstützt.',
+                'disclaimer_3': 'Ergebnisse können variieren. Alle Informationen dienen nur zu Informationszwecken.',
+                'modal_title': 'Rechtliche Informationen',
+                'btn_close': 'Schließen',
+                'meta_title': 'Derila Ergo Kissen - Ergonomisches Kissen - Besser Schlafen'
+            },
+            'it': {
+                'discount_badge': '-70% DI SCONTO',
+                'hero_title': 'Svegliati fresco <br class="hidden sm:block">e riposato',
+                'hero_desc': 'Design ergonomico che aiuta a mantenere testa, collo e colonna vertebrale allineati per tutta la notte.',
+                'bullet_1': 'Ottieni il 70% di sconto (Scorte limitate)',
+                'bullet_2': 'Supporto ottimale per collo e spalle',
+                'bullet_3': 'Prova senza rischi – Garanzia di 60 notti',
+                'btn_buy': 'Acquista ora – Risparmia il 70%',
+                'btn_reviews': 'Leggi le recensioni',
+                'footer_copy': '&copy; 2026 Derila Ergo. Tutti i diritti riservati.',
+                'footer_auth': 'Rivenditore Autorizzato',
+                'link_privacy': 'Informativa sulla Privacy',
+                'link_terms': 'Termini di Servizio',
+                'link_contact': 'Contattaci',
+                'disclaimer_1': 'Questo sito non fa parte del sito web di Google™ o di Google Inc. Inoltre, questo sito NON è approvato da Google™.',
+                'disclaimer_2': 'Questo sito non fa parte del sito web di Facebook o di Facebook Inc. Inoltre, questo sito NON è approvato da Facebook.',
+                'disclaimer_3': 'I risultati possono variare. Tutte le informazioni sono solo a scopo informativo.',
+                'modal_title': 'Informazioni Legali',
+                'btn_close': 'Chiudi',
+                'meta_title': 'Cuscino Derila Ergo - Cuscino Ergonomico - Dormi Meglio'
+            },
+            'nl': {
+                'discount_badge': '-70% KORTING',
+                'hero_title': 'Word fris <br class="hidden sm:block">en uitgerust wakker',
+                'hero_desc': 'Ergonomisch ontwerp dat helpt hoofd, nek en ruggengraat de hele nacht uitgelijnd te houden.',
+                'bullet_1': 'Krijg 70% korting (Beperkte voorraad)',
+                'bullet_2': 'Optimale ondersteuning voor nek en schouders',
+                'bullet_3': 'Probeer zonder risico – 60 nachten garantie',
+                'btn_buy': 'Nu kopen – Bespaar 70%',
+                'btn_reviews': 'Lees beoordelingen',
+                'footer_copy': '&copy; 2026 Derila Ergo. Alle rechten voorbehouden.',
+                'footer_auth': 'Geautoriseerde verkoper',
+                'link_privacy': 'Privacybeleid',
+                'link_terms': 'Servicevoorwaarden',
+                'link_contact': 'Neem contact op',
+                'disclaimer_1': 'Deze site maakt geen deel uit van de Google™-website of Google Inc.',
+                'disclaimer_2': 'Deze site maakt geen deel uit van de Facebook-website of Facebook Inc.',
+                'disclaimer_3': 'Resultaten kunnen variëren. Alle informatie is uitsluitend voor informatieve doeleinden.',
+                'modal_title': 'Juridische Informatie',
+                'btn_close': 'Sluiten',
+                'meta_title': 'Derila Ergo Kussen - Ergonomisch Kussen - Beter Slapen'
+            },
+            'pl': {
+                'discount_badge': '-70% ZNIŻKI',
+                'hero_title': 'Obudź się świeży <br class="hidden sm:block">i wypoczęty',
+                'hero_desc': 'Ergonomiczna konstrukcja, która pomaga utrzymać głowę, szyję i kręgosłup w jednej linii przez całą noc.',
+                'bullet_1': 'Uzyskaj 70% zniżki (Ograniczone zapasy)',
+                'bullet_2': 'Optymalne wsparcie dla szyi i ramion',
+                'bullet_3': 'Wypróbuj bez ryzyka – 60 dni gwarancji',
+                'btn_buy': 'Kup teraz – Oszczędź 70%',
+                'btn_reviews': 'Czytaj opinie',
+                'footer_copy': '&copy; 2026 Derila Ergo. Wszelkie prawa zastrzeżone.',
+                'footer_auth': 'Autoryzowany Sprzedawca',
+                'link_privacy': 'Polityka Prywatności',
+                'link_terms': 'Warunki Korzystania',
+                'link_contact': 'Kontakt',
+                'disclaimer_1': 'Ta strona nie jest częścią witryny Google™ ani Google Inc.',
+                'disclaimer_2': 'Ta strona nie jest częścią witryny Facebook ani Facebook Inc.',
+                'disclaimer_3': 'Wyniki mogą się różnić. Wszystkie informacje służą wyłącznie celom informacyjnym.',
+                'modal_title': 'Informacje Prawne',
+                'btn_close': 'Zamknij',
+                'meta_title': 'Poduszka Derila Ergo - Poduszka Ergonomiczna - Śpij Lepiej'
+            },
+            'no': {
+                'discount_badge': '-70% RABATT',
+                'hero_title': 'Våkne opp frisk <br class="hidden sm:block">og uthvilt',
+                'hero_desc': 'Ergonomisk design som bidrar til å holde hode, nakke og ryggrad på linje hele natten.',
+                'bullet_1': 'Få 70% rabatt (Begrenset lager)',
+                'bullet_2': 'Optimal støtte for nakke og skuldre',
+                'bullet_3': 'Prøv risikofritt – 60 dagers garanti',
+                'btn_buy': 'Kjøp nå – Spar 70%',
+                'btn_reviews': 'Les anmeldelser',
+                'footer_copy': '&copy; 2026 Derila Ergo. Alle rettigheter forbeholdt.',
+                'footer_auth': 'Autorisert forhandler',
+                'link_privacy': 'Personvernerklæring',
+                'link_terms': 'Vilkår for bruk',
+                'link_contact': 'Kontakt oss',
+                'disclaimer_1': 'Dette nettstedet er ikke en del av Google™-nettstedet eller Google Inc.',
+                'disclaimer_2': 'Dette nettstedet er ikke en del av Facebook-nettstedet eller Facebook Inc.',
+                'disclaimer_3': 'Resultatene kan variere. All informasjon er kun til informasjonsformål.',
+                'modal_title': 'Juridisk Informasjon',
+                'btn_close': 'Lukk',
+                'meta_title': 'Derila Ergo Pute - Ergonomisk Pute - Sov Bedre'
+            },
+            'fi': {
+                'discount_badge': '-70% ALENNUS',
+                'hero_title': 'Herää virkeänä <br class="hidden sm:block">ja levänneenä',
+                'hero_desc': 'Ergonominen muotoilu, joka auttaa pitämään pään, niskan ja selkärangan linjassa koko yön.',
+                'bullet_1': 'Saat 70% alennuksen (Rajoitettu erä)',
+                'bullet_2': 'Optimaalinen tuki niskalle ja hartioille',
+                'bullet_3': 'Kokeile riskittömästi – 60 yön takuu',
+                'btn_buy': 'Osta nyt – Säästä 70%',
+                'btn_reviews': 'Lue arvostelut',
+                'footer_copy': '&copy; 2026 Derila Ergo. Kaikki oikeudet pidätetään.',
+                'footer_auth': 'Valtuutettu jälleenmyyjä',
+                'link_privacy': 'Tietosuojakäytäntö',
+                'link_terms': 'Käyttöehdot',
+                'link_contact': 'Ota yhteyttä',
+                'disclaimer_1': 'Tämä sivusto ei ole osa Google™-sivustoa tai Google Inc:tä.',
+                'disclaimer_2': 'Tämä sivusto ei ole osa Facebook-sivustoa tai Facebook Inc:tä.',
+                'disclaimer_3': 'Tulokset voivat vaihdella. Kaikki tiedot ovat vain tiedotustarkoituksiin.',
+                'modal_title': 'Oikeudelliset tiedot',
+                'btn_close': 'Sulje',
+                'meta_title': 'Derila Ergo Tyyny - Ergonominen Tyyny - Nuku Paremmin'
             }
         };
 
-        // Copiando o conteúdo em inglês para outras chaves para garantir consistência
-        ['de', 'nl', 'sv', 'da', 'no', 'fi'].forEach(lang => {
-            translations[lang] = translations['en'];
+        // --- DETECTION LOGIC ---
+        document.addEventListener('DOMContentLoaded', () => {
+            const userLang = navigator.language || navigator.userLanguage; 
+            // e.g., "pt-BR", "sv-SE", "en-US", "es-ES", "de-DE"
+            
+            let targetLang = 'en'; // Default
+            
+            // Check first two letters of language code
+            const langCode = userLang.substring(0, 2).toLowerCase();
+
+            if (translations[langCode]) {
+                targetLang = langCode;
+            }
+
+            // Apply translation if not English
+            if (targetLang !== 'en' && translations[targetLang]) {
+                const elements = document.querySelectorAll('[data-translate]');
+                elements.forEach(el => {
+                    const key = el.getAttribute('data-translate');
+                    if (translations[targetLang][key]) {
+                        // Check if it's the title tag or generic element
+                        if (key === 'meta_title') {
+                            document.title = translations[targetLang][key];
+                        } else {
+                            el.innerHTML = translations[targetLang][key];
+                        }
+                    }
+                });
+                
+                // Update HTML lang attribute
+                document.documentElement.lang = targetLang;
+            }
         });
 
-        function setLanguage(lang, countryCode) {
-            const elements = document.querySelectorAll('[data-i18n]');
-            elements.forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                if (translations[lang] && translations[lang][key]) {
-                    el.innerHTML = translations[lang][key];
+        // --- ICONS & SCROLL ---
+        feather.replace();
+
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 50; 
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
                 }
-            });
-
-            const regionFlag = document.getElementById('dynamic-region-flag');
-            if (regionFlag) {
-                regionFlag.src = `https://flagcdn.com/w20/${countryCode}.png`;
             }
         }
-        
-        // Added country selection handler
-        function selectCountry(countryCode) {
-            // Redireciona o usuário para o link de oferta
-            window.location.href = 'https://mwebex.com/11164/5951/3/?';
+        window.addEventListener("scroll", reveal);
+        reveal();
+
+        // --- MODAL ---
+        const modal = document.getElementById('policy-modal');
+        const body = document.body;
+
+        function openModal() {
+            modal.classList.remove('hidden');
+            body.classList.add('modal-open');
         }
 
-        function showPolicy(type) {
-            document.getElementById('landing-page').style.display = 'none';
-            document.getElementById('legal-page').style.display = 'block';
-            document.getElementById('privacy-content').style.display = 'none';
-            document.getElementById('terms-content').style.display = 'none';
-            window.scrollTo(0, 0); // Always scroll to top when changing views
-            
-            if(type === 'privacy') {
-                document.getElementById('privacy-content').style.display = 'block';
-            } else if(type === 'terms') {
-                document.getElementById('terms-content').style.display = 'block';
+        function closeModal() {
+            modal.classList.add('hidden');
+            body.classList.remove('modal-open');
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closeModal();
             }
-        }
-
-        function hidePolicy() {
-            document.getElementById('legal-page').style.display = 'none';
-            document.getElementById('landing-page').style.display = 'block';
-            // Scroll back to bottom or relevant section if desired, but top is safer for UX reset
-            window.scrollTo(0, 0); 
-        }
+        });
     </script>
 </body>
 </html>
-
